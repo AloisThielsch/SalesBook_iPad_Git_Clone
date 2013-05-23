@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="1AZ-tk-OJ3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Filter Manager View Controller-->
+        <scene sceneID="EX3-Cu-My7">
+            <objects>
+                <viewController storyboardIdentifier="FilterManager" modalPresentationStyle="pageSheet" id="1AZ-tk-OJ3" customClass="FilterManagerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n2s-fc-zJx">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="mug-jM-tHx">
+                                <items>
+                                    <barButtonItem title="Close" id="HBv-82-7EZ">
+                                        <connections>
+                                            <action selector="close:" destination="1AZ-tk-OJ3" id="zbr-2s-Kkm"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="P12-z6-ppj"/>
+                                    <barButtonItem title="Edit Filter" style="plain" id="5yC-sh-i3q"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="6NE-tn-z6d"/>
+                                    <barButtonItem systemItem="edit" id="gp2-GR-z0y">
+                                        <connections>
+                                            <action selector="switchEditMode:" destination="1AZ-tk-OJ3" id="dp3-Rg-Dkh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="kS6-gB-hpj">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="514" id="dkQ-mi-sC9"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FilterLevelCell" textLabel="6EB-dF-KvM" detailTextLabel="6rp-BP-Kia" style="IBUITableViewCellStyleValue1" id="3GO-Fr-LAY">
+                                        <rect key="frame" x="0.0" y="54" width="768" height="46"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="45" y="1" width="678" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6EB-dF-KvM">
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rp-BP-Kia">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="1AZ-tk-OJ3" id="g7B-nw-kVa"/>
+                                    <outlet property="delegate" destination="1AZ-tk-OJ3" id="DIn-hc-k5H"/>
+                                </connections>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8h4-jt-o9m">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="325" id="3j3-Ps-rpk"/>
+                                    <constraint firstAttribute="height" constant="40" id="QaQ-Vf-fvP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="yAS-Wv-8kd" appends="YES" id="8Ts-qS-uBx"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="69V-G9-PRQ">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="325" id="v68-x3-fGv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ktj-4X-1or" appends="YES" id="KKM-yH-g2g"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uaj-gF-h02">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4YU-iC-8ej"/>
+                                    <constraint firstAttribute="width" constant="325" id="wdP-hD-mey"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fh-uG-ghV">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="6Xc-Cq-8pZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Add / Change" backgroundImage="Button.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButtonTapped:" destination="1AZ-tk-OJ3" eventType="touchUpInside" id="E4e-SX-3E4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQl-lu-5RW">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="JHb-uT-jLu"/>
+                                    <constraint firstAttribute="width" constant="120" id="K6w-x0-Vae"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Save Filter" backgroundImage="Button.png">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveFilterButtonTapped:" destination="1AZ-tk-OJ3" eventType="touchUpInside" id="KXY-em-tBM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.94999999999999996" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fh-uG-ghV" firstAttribute="trailing" secondItem="69V-G9-PRQ" secondAttribute="trailing" type="default" id="5R0-B9-STH"/>
+                            <constraint firstItem="bQl-lu-5RW" firstAttribute="centerY" secondItem="Uaj-gF-h02" secondAttribute="centerY" type="default" id="F1S-vT-Kkd"/>
+                            <constraint firstItem="8h4-jt-o9m" firstAttribute="bottom" secondItem="69V-G9-PRQ" secondAttribute="bottom" type="default" id="FZz-s3-Zqc"/>
+                            <constraint firstItem="kS6-gB-hpj" firstAttribute="top" secondItem="bQl-lu-5RW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Gxg-K5-aUQ"/>
+                            <constraint firstItem="kS6-gB-hpj" firstAttribute="leading" secondItem="n2s-fc-zJx" secondAttribute="leading" type="default" id="IsL-tn-Zde"/>
+                            <constraint firstItem="mug-jM-tHx" firstAttribute="trailing" secondItem="n2s-fc-zJx" secondAttribute="trailing" type="default" id="SQ9-QF-Gnr"/>
+                            <constraint firstItem="mug-jM-tHx" firstAttribute="top" secondItem="n2s-fc-zJx" secondAttribute="top" type="default" id="Tqc-vu-JSZ"/>
+                            <constraint firstItem="bQl-lu-5RW" firstAttribute="leading" secondItem="2fh-uG-ghV" secondAttribute="leading" type="default" id="ZZS-tW-EJP"/>
+                            <constraint firstItem="mug-jM-tHx" firstAttribute="leading" secondItem="n2s-fc-zJx" secondAttribute="leading" type="default" id="bL1-1S-vS7"/>
+                            <constraint firstItem="bQl-lu-5RW" firstAttribute="top" secondItem="n2s-fc-zJx" secondAttribute="top" constant="54" id="bbA-ej-9q9"/>
+                            <constraint firstItem="bQl-lu-5RW" firstAttribute="trailing" secondItem="69V-G9-PRQ" secondAttribute="trailing" type="default" id="cFq-jU-BAo"/>
+                            <constraint firstItem="bQl-lu-5RW" firstAttribute="leading" secondItem="Uaj-gF-h02" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="fHj-vL-5xQ"/>
+                            <constraint firstItem="Uaj-gF-h02" firstAttribute="leading" secondItem="n2s-fc-zJx" secondAttribute="leading" constant="270" id="fcb-Pw-nAF"/>
+                            <constraint firstItem="8h4-jt-o9m" firstAttribute="leading" secondItem="n2s-fc-zJx" secondAttribute="leading" constant="45" id="jhw-st-qYV"/>
+                            <constraint firstItem="69V-G9-PRQ" firstAttribute="top" secondItem="kS6-gB-hpj" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="lTh-kX-0pw"/>
+                            <constraint firstItem="2fh-uG-ghV" firstAttribute="top" secondItem="69V-G9-PRQ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="pDK-Kl-eq0"/>
+                            <constraint firstItem="8h4-jt-o9m" firstAttribute="top" secondItem="kS6-gB-hpj" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="pIs-hL-uqa"/>
+                            <constraint firstItem="kS6-gB-hpj" firstAttribute="trailing" secondItem="n2s-fc-zJx" secondAttribute="trailing" type="default" id="txV-Vg-ahe"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="buttonAddChange" destination="2fh-uG-ghV" id="hek-1f-T7a"/>
+                        <outlet property="buttonSaveFilter" destination="bQl-lu-5RW" id="v9J-sP-fvr"/>
+                        <outlet property="tableView" destination="kS6-gB-hpj" id="gQo-yQ-0Vz"/>
+                        <outlet property="textFieldFilterName" destination="Uaj-gF-h02" id="jXE-Vl-y43"/>
+                        <outlet property="textFieldKey" destination="8h4-jt-o9m" id="e50-UK-mMj"/>
+                        <outlet property="textFieldValue" destination="69V-G9-PRQ" id="6pn-Mb-SpJ"/>
+                        <outlet property="titleItem" destination="5yC-sh-i3q" id="QmW-1S-3dn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Gg-an-jB1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="yAS-Wv-8kd" userLabel="Key Tap">
+                    <connections>
+                        <action selector="keyFieldTapped:" destination="1AZ-tk-OJ3" id="jIY-7X-SaR"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ktj-4X-1or" userLabel="Value Tap">
+                    <connections>
+                        <action selector="valueFieldTapped:" destination="1AZ-tk-OJ3" id="SZa-M0-TSr"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1266" y="313"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Button.png" width="301" height="54"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

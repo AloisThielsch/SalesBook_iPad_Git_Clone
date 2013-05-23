@@ -1,0 +1,9 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/HockeySDK/Vendor"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) BITHOCKEY_VERSION="@\"3.0.0\""
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC -framework CoreGraphics -framework CoreText -framework CrashReporter -framework Foundation -framework QuartzCore -framework SystemConfiguration -framework UIKit
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/GRMustache" "${PODS_ROOT}/BuildHeaders/HockeySDK" "${PODS_ROOT}/BuildHeaders/JRSwizzle" "${PODS_ROOT}/BuildHeaders/PSAlertView"
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/GRMustache" "${PODS_ROOT}/Headers/HockeySDK" "${PODS_ROOT}/Headers/JRSwizzle" "${PODS_ROOT}/Headers/PSAlertView"
+PODS_ROOT = ${SRCROOT}/Pods

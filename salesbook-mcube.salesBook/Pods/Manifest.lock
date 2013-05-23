@@ -1,0 +1,19 @@
+PODS:
+  - GRMustache (6.4.1):
+    - JRSwizzle (~> 1.0)
+  - HockeySDK (3.0.0)
+  - JRSwizzle (1.0)
+  - PSAlertView (1.1)
+
+DEPENDENCIES:
+  - GRMustache (~> 6.4)
+  - HockeySDK
+  - PSAlertView
+
+SPEC CHECKSUMS:
+  GRMustache: 955237f31bf7bbd04c7f1d82e332a8dadc10ea71
+  HockeySDK: ffb5d1bc7b6fef6a2ffd7a614504665c377607e8
+  JRSwizzle: 6242ff38485d870fc2636899048ee1ab883ae587
+  PSAlertView: bdccae3cbd14f6060772654ae641daec7415d9fa
+
+COCOAPODS: 0.19.1

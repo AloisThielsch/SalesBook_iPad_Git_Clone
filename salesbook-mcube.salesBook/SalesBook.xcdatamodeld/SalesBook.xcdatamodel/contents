@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="11G63" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="SBAddress" representedClassName="SBAddress" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="actionFlag"/>
+            </userInfo>
+        </attribute>
+        <attribute name="addressNumber" optional="YES" attributeType="String" maxValueString="50" indexed="YES" syncable="YES"/>
+        <attribute name="addressType" optional="YES" attributeType="Integer 16" defaultValueString="99" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" defaultDateTimeInterval="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="entryDate"/>
+            </userInfo>
+        </attribute>
+        <attribute name="customerNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="fax" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gln" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="GLN"/>
+            </userInfo>
+        </attribute>
+        <attribute name="homepage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" indexed="YES" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" indexed="YES" syncable="YES"/>
+        <attribute name="mail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name1" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="name2" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalCode" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="postBox" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postBoxCity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postBoxPostalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="address" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="clerk" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBClerk" inverseName="address" inverseEntity="SBClerk" syncable="YES"/>
+        <relationship name="contacts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBContact" inverseName="adresses" inverseEntity="SBContact" syncable="YES"/>
+        <relationship name="customer" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="SBCustomer" inverseName="addresses" inverseEntity="SBCustomer" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <relationship name="deliveryAddresses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBDocument" inverseName="deliveryAddress" inverseEntity="SBDocument" syncable="YES"/>
+        <relationship name="invoiceAddresses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBDocument" inverseName="invoiceAddress" inverseEntity="SBDocument" syncable="YES"/>
+        <userInfo>
+            <entry key="payloadType" value="address"/>
+        </userInfo>
+    </entity>
+    <entity name="SBAssortment" representedClassName="SBAssortment" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="assortment" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="season" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sizeIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="SBAttribute" representedClassName="SBAttribute" syncable="YES">
+        <attribute name="language" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="theKey" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="theValue" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="address" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SBAddress" inverseName="attributes" inverseEntity="SBAddress" syncable="YES"/>
+        <relationship name="catalog" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBCatalog" inverseName="attributes" inverseEntity="SBCatalog" syncable="YES"/>
+        <relationship name="contact" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBContact" inverseName="attributes" inverseEntity="SBContact" syncable="YES"/>
+        <relationship name="customer" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBCustomer" inverseName="attributes" inverseEntity="SBCustomer" syncable="YES"/>
+        <relationship name="customField" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBCustomField" inverseName="attributes" inverseEntity="SBCustomField" syncable="YES"/>
+        <relationship name="document" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBDocument" inverseName="attributes" inverseEntity="SBDocument" syncable="YES"/>
+        <relationship name="documentPosition" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBDocumentPosition" inverseName="attributes" inverseEntity="SBDocumentPosition" syncable="YES"/>
+        <relationship name="item" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBItem" inverseName="attributes" inverseEntity="SBItem" syncable="YES"/>
+        <relationship name="itemGroup" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBItemGroup" inverseName="attributes" inverseEntity="SBItemGroup" syncable="YES"/>
+        <relationship name="mediaFile" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBMedia" inverseName="attributes" inverseEntity="SBMedia" syncable="YES"/>
+        <relationship name="selectionOption" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBSelectionOption" inverseName="attributes" inverseEntity="SBSelectionOption" syncable="YES"/>
+        <relationship name="variant" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBVariant" inverseName="attributes" inverseEntity="SBVariant" syncable="YES"/>
+    </entity>
+    <entity name="SBCatalog" representedClassName="SBCatalog" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="catalogNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="catalog" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="itemGroups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBItemGroup" inverseName="catalogs" inverseEntity="SBItemGroup" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBItem" inverseName="catalogs" inverseEntity="SBItem" syncable="YES"/>
+    </entity>
+    <entity name="SBClerk" representedClassName="SBClerk" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="clerkDenotaion" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="denotation"/>
+            </userInfo>
+        </attribute>
+        <attribute name="clerkNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="defaultLanguage" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="mailAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxNumDevices" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="address" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBAddress" inverseName="clerk" inverseEntity="SBAddress" syncable="YES"/>
+        <relationship name="languages" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBLanguage" inverseName="clerk" inverseEntity="SBLanguage" syncable="YES"/>
+        <userInfo>
+            <entry key="referenceOnly" value="1"/>
+        </userInfo>
+    </entity>
+    <entity name="SBContact" representedClassName="SBContact" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="actionFlag"/>
+            </userInfo>
+        </attribute>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="annotation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="contactNumber" optional="YES" attributeType="String" maxValueString="50" indexed="YES" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" defaultDateTimeInterval="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="entryDate"/>
+            </userInfo>
+        </attribute>
+        <attribute name="customerNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="dateOfBirth" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="fax" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name1" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="name2" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salutation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="adresses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAddress" inverseName="contacts" inverseEntity="SBAddress" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="contact" inverseEntity="SBAttribute" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <relationship name="customer" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBCustomer" inverseName="contacts" inverseEntity="SBCustomer" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <userInfo>
+            <entry key="payloadType" value="contact"/>
+        </userInfo>
+    </entity>
+    <entity name="SBCustomer" representedClassName="SBCustomer" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="actionFlag"/>
+            </userInfo>
+        </attribute>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" defaultDateTimeInterval="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="entryDate"/>
+            </userInfo>
+        </attribute>
+        <attribute name="creditLimit" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" maxValueString="3" defaultValueString="EUR" syncable="YES"/>
+        <attribute name="customerNumber" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="customerType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="discountPercentage" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="inactive" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="matchcode1" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="matchcode2" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="owningCustomer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="preferedLanguage" optional="YES" attributeType="String" maxValueString="2" syncable="YES"/>
+        <attribute name="priceGroupNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resubmissionDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="resubmissionDays" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="vatID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="addresses" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAddress" inverseName="customer" inverseEntity="SBAddress" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="customer" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="contacts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBContact" inverseName="customer" inverseEntity="SBContact" syncable="YES"/>
+        <relationship name="documents" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBDocument" inverseName="customer" inverseEntity="SBDocument" syncable="YES"/>
+        <relationship name="mediaFiles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBMedia" inverseName="customer" inverseEntity="SBMedia" syncable="YES"/>
+        <relationship name="priceGroup" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBPriceGroup" inverseName="customers" inverseEntity="SBPriceGroup" syncable="YES"/>
+        <relationship name="subCustomers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBCustomer" inverseName="topCustomer" inverseEntity="SBCustomer" syncable="YES"/>
+        <relationship name="topCustomer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SBCustomer" inverseName="subCustomers" inverseEntity="SBCustomer" syncable="YES"/>
+        <userInfo>
+            <entry key="payloadType" value="customer"/>
+            <entry key="referenceOnly" value="1"/>
+        </userInfo>
+    </entity>
+    <entity name="SBCustomField" representedClassName="SBCustomField" syncable="YES">
+        <attribute name="actionState" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" defaultDateTimeInterval="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="entryDate"/>
+            </userInfo>
+        </attribute>
+        <attribute name="customFieldType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interfaceTableColumnType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isEditable" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isFilterable" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isMandatory" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isMultiLanguage" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isMultiRow" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isSearchable" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isVisibleInDetails" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="isVisibleInList" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="layoutGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="regExRule" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="targetEntity" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="targetField" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textFromEntity" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="textFromKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="2" syncable="YES"/>
+        <attribute name="uniqueID" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="customField" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="seletionOptions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBSelectionOption" inverseName="customField" inverseEntity="SBSelectionOption" syncable="YES"/>
+    </entity>
+    <entity name="SBDocument" representedClassName="SBDocument" isAbstract="YES" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="actionFlag"/>
+            </userInfo>
+        </attribute>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" defaultDateTimeInterval="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="entryDate"/>
+            </userInfo>
+        </attribute>
+        <attribute name="currencyCode" optional="YES" attributeType="String" maxValueString="3" syncable="YES"/>
+        <attribute name="customerNumber" optional="YES" attributeType="String" maxValueString="50" syncable="YES"/>
+        <attribute name="documentNumber" optional="YES" attributeType="String" maxValueString="50" indexed="YES" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="salesOrderNumber"/>
+            </userInfo>
+        </attribute>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="documentType" optional="YES" attributeType="Integer 16" defaultValueString="30" syncable="YES"/>
+        <attribute name="earliestDeliveryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="externalReference" optional="YES" attributeType="String" maxValueString="50" indexed="YES" syncable="YES"/>
+        <attribute name="futureType" optional="YES" attributeType="Integer 16" defaultValueString="15" syncable="YES"/>
+        <attribute name="humanReadableName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestDeliveryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="referenceNumber" optional="YES" attributeType="String" maxValueString="50" indexed="YES" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="document" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="customer" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBCustomer" inverseName="documents" inverseEntity="SBCustomer" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <relationship name="deliveryAddress" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBAddress" inverseName="deliveryAddresses" inverseEntity="SBAddress" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <relationship name="invoiceAddress" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBAddress" inverseName="invoiceAddresses" inverseEntity="SBAddress" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <relationship name="positions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBDocumentPosition" inverseName="document" inverseEntity="SBDocumentPosition" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <relationship name="rebate" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBRebate" inverseName="document" inverseEntity="SBRebate" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <userInfo>
+            <entry key="payloadType" value="document"/>
+        </userInfo>
+    </entity>
+    <entity name="SBDocumentPosition" representedClassName="SBDocumentPosition" syncable="YES">
+        <attribute name="adjustedDeliveryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="amount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="calculatedDeliveryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="documentPosition" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="document" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBDocument" inverseName="positions" inverseEntity="SBDocument" syncable="YES"/>
+        <relationship name="rebate" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBRebate" inverseName="documentPosition" inverseEntity="SBRebate" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <relationship name="referencedVariant" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBVariant" inverseName="documentPositions" inverseEntity="SBVariant" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="SBDocumentType" representedClassName="SBDocumentType" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="denotationValue" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="denotation"/>
+            </userInfo>
+        </attribute>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="documentTypeID" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" defaultValueString="DE" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="SBFilter" representedClassName="SBFilter" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cache" optional="YES" attributeType="Binary" syncable="YES">
+            <userInfo>
+                <entry key="excludeInXML" value="1"/>
+            </userInfo>
+        </attribute>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetEntity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="levels" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="SBFilterLevel" inverseName="filter" inverseEntity="SBFilterLevel" syncable="YES">
+            <userInfo>
+                <entry key="includeInXML" value="1"/>
+            </userInfo>
+        </relationship>
+        <userInfo>
+            <entry key="payloadType" value="Filter"/>
+        </userInfo>
+    </entity>
+    <entity name="SBFilterLevel" representedClassName="SBFilterLevel" syncable="YES">
+        <attribute name="cache" optional="YES" attributeType="Binary" syncable="YES">
+            <userInfo>
+                <entry key="excludeInXML" value="1"/>
+            </userInfo>
+        </attribute>
+        <attribute name="level" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="relationshipKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetEntity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="theKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="theValue" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="excludeInXML" value="1"/>
+            </userInfo>
+        </attribute>
+        <relationship name="filter" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBFilter" inverseName="levels" inverseEntity="SBFilter" syncable="YES"/>
+    </entity>
+    <entity name="SBItem" representedClassName="SBItem" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dimensionKeyForDisplayUse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="itemGroupNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemKind" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="itemNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="itemType" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="matrixKeyFor1stDimension" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matrixKeyFor2ndDimension" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matrixKeyFor3rdDimension" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="item" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="catalogs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBCatalog" inverseName="items" inverseEntity="SBCatalog" syncable="YES"/>
+        <relationship name="itemGroup" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBItemGroup" inverseName="items" inverseEntity="SBItemGroup" syncable="YES"/>
+        <relationship name="variants" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBVariant" inverseName="owningItem" inverseEntity="SBVariant" syncable="YES"/>
+    </entity>
+    <entity name="SBItemGroup" representedClassName="SBItemGroup" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="itemGroupNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="parentGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="2" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="itemGroup" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="catalogs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBCatalog" inverseName="itemGroups" inverseEntity="SBCatalog" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBItem" inverseName="itemGroup" inverseEntity="SBItem" syncable="YES"/>
+        <relationship name="subGroups" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBItemGroup" inverseName="topGroup" inverseEntity="SBItemGroup" syncable="YES"/>
+        <relationship name="topGroup" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SBItemGroup" inverseName="subGroups" inverseEntity="SBItemGroup" syncable="YES"/>
+    </entity>
+    <entity name="SBKeyValueStore" representedClassName="SBKeyValueStore" syncable="YES">
+        <attribute name="theKey" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="theValue" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="SBLanguage" representedClassName="SBLanguage" syncable="YES">
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="languageDenotation" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="denotation"/>
+            </userInfo>
+        </attribute>
+        <attribute name="languageNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="language"/>
+            </userInfo>
+        </attribute>
+        <relationship name="clerk" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBClerk" inverseName="languages" inverseEntity="SBClerk" syncable="YES"/>
+    </entity>
+    <entity name="SBMedia" representedClassName="SBMedia" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="colorNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="customerNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="downloadPriority" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="fileNameExtension" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hashCode" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="isDownloaded" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="loadIfMobile" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="loadIfMobile"/>
+            </userInfo>
+        </attribute>
+        <attribute name="mediaType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="typeID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="variantNumber" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="mediaFile" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="customer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SBCustomer" inverseName="mediaFiles" inverseEntity="SBCustomer" syncable="YES"/>
+        <relationship name="variants" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBVariant" inverseName="mediaFiles" inverseEntity="SBVariant" syncable="YES"/>
+    </entity>
+    <entity name="SBPrice" representedClassName="SBPrice" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" maxValueString="3" defaultValueString="EUR" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" indexed="YES" syncable="YES"/>
+        <attribute name="price2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="priceGroupNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="recommendedPrice" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="variantNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="itemNumber"/>
+            </userInfo>
+        </attribute>
+        <relationship name="priceGroup" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBPriceGroup" inverseName="prices" inverseEntity="SBPriceGroup" syncable="YES"/>
+        <relationship name="variant" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SBVariant" inverseName="prices" inverseEntity="SBVariant" syncable="YES"/>
+    </entity>
+    <entity name="SBPriceGroup" representedClassName="SBPriceGroup" syncable="YES">
+        <attribute name="priceGroupNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="customers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBCustomer" inverseName="priceGroup" inverseEntity="SBCustomer" syncable="YES"/>
+        <relationship name="prices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBPrice" inverseName="priceGroup" inverseEntity="SBPrice" syncable="YES"/>
+        <relationship name="salesOrganization" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBSalesOrganization" inverseName="priceGroup" inverseEntity="SBSalesOrganization" syncable="YES"/>
+    </entity>
+    <entity name="SBPurchaseOrder" representedClassName="SBPurchaseOrder" parentEntity="SBDocument" syncable="YES">
+        <userInfo>
+            <entry key="payloadType" value="purchaseOrder"/>
+        </userInfo>
+    </entity>
+    <entity name="SBRebate" representedClassName="SBRebate" syncable="YES">
+        <relationship name="document" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBDocument" inverseName="rebate" inverseEntity="SBDocument" syncable="YES"/>
+        <relationship name="documentPosition" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBDocumentPosition" inverseName="rebate" inverseEntity="SBDocumentPosition" syncable="YES"/>
+    </entity>
+    <entity name="SBRebateAbsolute" representedClassName="SBRebateAbsolute" parentEntity="SBRebate" syncable="YES">
+        <attribute name="value" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="SBRebatePercental" representedClassName="SBRebatePercental" parentEntity="SBRebate" syncable="YES">
+        <attribute name="percentage" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="SBSalesOrganization" representedClassName="SBSalesOrganization" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="defaultPriceGroup" optional="YES" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="salesOrganizationDenotaion" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="denotation"/>
+            </userInfo>
+        </attribute>
+        <attribute name="salesOrganizationNumber" optional="YES" attributeType="String" indexed="YES" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="salesOrg"/>
+            </userInfo>
+        </attribute>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="priceGroup" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBPriceGroup" inverseName="salesOrganization" inverseEntity="SBPriceGroup" syncable="YES"/>
+    </entity>
+    <entity name="SBSelectionOption" representedClassName="SBSelectionOption" syncable="YES">
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isVisible" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="optionCode" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="selectionOption" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="customField" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBCustomField" inverseName="seletionOptions" inverseEntity="SBCustomField" syncable="YES"/>
+    </entity>
+    <entity name="SBShoppingCart" representedClassName="SBShoppingCart" parentEntity="SBDocument" syncable="YES">
+        <userInfo>
+            <entry key="payloadType" value="shoppingCart"/>
+        </userInfo>
+    </entity>
+    <entity name="SBStock" representedClassName="SBStock" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="actionFlag"/>
+            </userInfo>
+        </attribute>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="availabilityState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" defaultDateTimeInterval="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="entryDate"/>
+            </userInfo>
+        </attribute>
+        <attribute name="dateStock" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="estimatiedDeliveryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="qty1" optional="YES" attributeType="Double" syncable="YES"/>
+        <attribute name="qty2" optional="YES" attributeType="Double" syncable="YES"/>
+        <attribute name="stockType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="variantNumber" optional="YES" attributeType="String" maxValueString="50" indexed="YES" syncable="YES"/>
+        <relationship name="variant" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBVariant" inverseName="stocks" inverseEntity="SBVariant" syncable="YES"/>
+    </entity>
+    <entity name="SBVariant" representedClassName="SBVariant" syncable="YES">
+        <attribute name="activeState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="actionFlag"/>
+            </userInfo>
+        </attribute>
+        <attribute name="aggregationDescriptor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alternationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="baseColorNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="baseQuantity" optional="YES" attributeType="Double" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="baseQty"/>
+            </userInfo>
+        </attribute>
+        <attribute name="colorNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" defaultDateTimeInterval="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="entryDate"/>
+            </userInfo>
+        </attribute>
+        <attribute name="displayPriority" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="documentState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="earliestDeliveryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="genericItem" optional="YES" attributeType="String" maxValueString="50" indexed="YES" syncable="YES"/>
+        <attribute name="gtin1" optional="YES" attributeType="String" maxValueString="14" indexed="YES" syncable="YES"/>
+        <attribute name="gtin2" optional="YES" attributeType="String" maxValueString="14" indexed="YES" syncable="YES"/>
+        <attribute name="itemDiscountGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latestDeliveryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="matrixSortOrderFor1stDimension" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="matrixSortOrderFor2ndDimension" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="matrixSortOrderFor3rdDimension" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="packQuantity" optional="YES" attributeType="Double" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="packingQty"/>
+            </userInfo>
+        </attribute>
+        <attribute name="priceQuantity" optional="YES" attributeType="Double" defaultValueString="1" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="priceQty"/>
+            </userInfo>
+        </attribute>
+        <attribute name="priceUnitCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="procurementTime" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="replacementVariant" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salesUnitCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transferDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="transferState" optional="YES" attributeType="Integer 16" defaultValueString="1" syncable="YES"/>
+        <attribute name="uniqueID" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="variantNumber" optional="YES" attributeType="String" maxValueString="50" indexed="YES" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <relationship name="attributes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBAttribute" inverseName="variant" inverseEntity="SBAttribute" syncable="YES"/>
+        <relationship name="documentPositions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBDocumentPosition" inverseName="referencedVariant" inverseEntity="SBDocumentPosition" syncable="YES"/>
+        <relationship name="mediaFiles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SBMedia" inverseName="variants" inverseEntity="SBMedia" syncable="YES"/>
+        <relationship name="owningItem" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="SBItem" inverseName="variants" inverseEntity="SBItem" syncable="YES"/>
+        <relationship name="prices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBPrice" inverseName="variant" inverseEntity="SBPrice" syncable="YES"/>
+        <relationship name="stocks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SBStock" inverseName="variant" inverseEntity="SBStock" syncable="YES"/>
+        <userInfo>
+            <entry key="referenceOnly" value="1"/>
+        </userInfo>
+    </entity>
+    <entity name="SBWebserviceInfo" representedClassName="SBWebserviceInfo" syncable="YES">
+        <attribute name="recordID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="webservice" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SBAddress" positionX="720" positionY="-352" width="128" height="538"/>
+        <element name="SBAssortment" positionX="-855" positionY="-738" width="128" height="223"/>
+        <element name="SBAttribute" positionX="295" positionY="179" width="128" height="270"/>
+        <element name="SBCatalog" positionX="-855" positionY="476" width="128" height="208"/>
+        <element name="SBClerk" positionX="916" positionY="-343" width="128" height="253"/>
+        <element name="SBContact" positionX="117" positionY="-513" width="128" height="373"/>
+        <element name="SBCustomer" positionX="511" positionY="-448" width="128" height="493"/>
+        <element name="SBCustomField" positionX="72" positionY="821" width="128" height="448"/>
+        <element name="SBDocument" positionX="1080" positionY="23" width="128" height="405"/>
+        <element name="SBDocumentPosition" positionX="862" positionY="572" width="128" height="180"/>
+        <element name="SBDocumentType" positionX="-855" positionY="-31" width="128" height="193"/>
+        <element name="SBFilter" positionX="-855" positionY="-477" width="128" height="223"/>
+        <element name="SBFilterLevel" positionX="-659" positionY="-441" width="128" height="163"/>
+        <element name="SBItem" positionX="-45" positionY="455" width="189" height="328"/>
+        <element name="SBItemGroup" positionX="-576" positionY="344" width="128" height="268"/>
+        <element name="SBKeyValueStore" positionX="-855" positionY="-235" width="128" height="73"/>
+        <element name="SBLanguage" positionX="745" positionY="-477" width="128" height="103"/>
+        <element name="SBMedia" positionX="-236" positionY="-459" width="146" height="358"/>
+        <element name="SBPrice" positionX="-218" positionY="-61" width="128" height="268"/>
+        <element name="SBPriceGroup" positionX="-54" positionY="20" width="128" height="103"/>
+        <element name="SBRebate" positionX="889" positionY="438" width="128" height="75"/>
+        <element name="SBRebateAbsolute" positionX="1087" positionY="441" width="128" height="60"/>
+        <element name="SBRebatePercental" positionX="1080" positionY="531" width="128" height="60"/>
+        <element name="SBSalesOrganization" positionX="547" positionY="-702" width="128" height="208"/>
+        <element name="SBSelectionOption" positionX="486" positionY="801" width="128" height="133"/>
+        <element name="SBShoppingCart" positionX="945" positionY="-54" width="128" height="43"/>
+        <element name="SBStock" positionX="-855" positionY="180" width="128" height="268"/>
+        <element name="SBVariant" positionX="-531" positionY="-261" width="198" height="568"/>
+        <element name="SBWebserviceInfo" positionX="-855" positionY="-142" width="128" height="88"/>
+        <element name="SBPurchaseOrder" positionX="1096" positionY="-72" width="128" height="45"/>
+    </elements>
+</model>

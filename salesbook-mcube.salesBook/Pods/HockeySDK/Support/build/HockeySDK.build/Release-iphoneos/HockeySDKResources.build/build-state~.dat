@@ -1,0 +1,687 @@
+THockeySDKResources
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/Info.plist ../Resources/HockeySDK-Info.plist
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request.png ../Resources/authorize_request.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied.png ../Resources/authorize_denied.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied@2x.png ../Resources/authorize_denied@2x.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request@2x.png ../Resources/authorize_request@2x.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/bg.png ../Resources/bg.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight.png ../Resources/buttonHighlight.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight@2x.png ../Resources/buttonHighlight@2x.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient.png ../Resources/IconGradient.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient@2x.png ../Resources/IconGradient@2x.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png ../Resources/feedbackActivity@2x~ipad.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy.png ../Resources/feedbackActiviy.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png ../Resources/feedbackActivity~ipad.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png ../Resources/feedbackActiviy@2x.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete.png ../Resources/buttonRoundedDelete.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png ../Resources/buttonRoundedDelete@2x.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png ../Resources/buttonRoundedDeleteHighlighted.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png ../Resources/buttonRoundedDeleteHighlighted@2x.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular.png ../Resources/buttonRoundedRegular.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png ../Resources/buttonRoundedRegular@2x.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png ../Resources/buttonRoundedRegularHighlighted.png
+cCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png ../Resources/buttonRoundedRegularHighlighted@2x.png
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings ../Resources/de.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings ../Resources/es.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings ../Resources/fr.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings ../Resources/it.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings ../Resources/ja.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings ../Resources/pt.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings ../Resources/ru.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings ../Resources/hr.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings ../Resources/pt-PT.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings ../Resources/en.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings ../Resources/zh-Hans.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings ../Resources/ro.lproj/HockeySDK.strings
+cCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings ../Resources/hu.lproj/HockeySDK.strings
+cTouch /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle
+
+N../Resources/HockeySDK-Info.plist
+c00000000517BF16200000000000003D2
+t1367077218
+s978
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient@2x.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/Info.plist
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied@2x.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request@2x.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/bg.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight@2x.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings
+t2
+s0
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/IconGradient.png
+c00000000517BF1620000000000000AE6
+t1367077218
+s2790
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/IconGradient@2x.png
+c00000000517BF1620000000000000E2C
+t1367077218
+s3628
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_denied.png
+c00000000517BF1620000000000000924
+t1367077218
+s2340
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_denied@2x.png
+c00000000517BF1620000000000001120
+t1367077218
+s4384
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_request.png
+c00000000517BF1620000000000000990
+t1367077218
+s2448
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_request@2x.png
+c00000000517BF16200000000000012B9
+t1367077218
+s4793
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/bg.png
+c00000000517BF1620000000000000628
+t1367077218
+s1576
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonHighlight.png
+c00000000517BF16200000000000003FD
+t1367077218
+s1021
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonHighlight@2x.png
+c00000000517BF162000000000000044D
+t1367077218
+s1101
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDelete.png
+c00000000517BF1620000000000000D58
+t1367077218
+s3416
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDelete@2x.png
+c00000000517BF162000000000000104B
+t1367077218
+s4171
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDeleteHighlighted.png
+c00000000517BF1620000000000000DD2
+t1367077218
+s3538
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDeleteHighlighted@2x.png
+c00000000517BF162000000000000125B
+t1367077218
+s4699
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegular.png
+c00000000517BF1620000000000000D1B
+t1367077218
+s3355
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegular@2x.png
+c00000000517BF162000000000000100C
+t1367077218
+s4108
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegularHighlighted.png
+c00000000517BF1620000000000000E15
+t1367077218
+s3605
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegularHighlighted@2x.png
+c00000000517BF162000000000000126D
+t1367077218
+s4717
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/de.lproj/HockeySDK.strings
+c00000000517BF16200000000000017FF
+t1367077218
+s6143
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/en.lproj/HockeySDK.strings
+c00000000517BF16200000000000016E4
+t1367077218
+s5860
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/es.lproj/HockeySDK.strings
+c00000000517BF16200000000000017BB
+t1367077218
+s6075
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActivity@2x~ipad.png
+c00000000517BF16200000000000009CE
+t1367077218
+s2510
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActivity~ipad.png
+c00000000517BF16200000000000006C4
+t1367077218
+s1732
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActiviy.png
+c00000000517BF162000000000000064E
+t1367077218
+s1614
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActiviy@2x.png
+c00000000517BF1620000000000000932
+t1367077218
+s2354
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/fr.lproj/HockeySDK.strings
+c00000000517BF162000000000000180D
+t1367077218
+s6157
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/hr.lproj/HockeySDK.strings
+c00000000517BF162000000000000174E
+t1367077218
+s5966
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/hu.lproj/HockeySDK.strings
+c00000000517BF1620000000000001806
+t1367077218
+s6150
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/it.lproj/HockeySDK.strings
+c00000000517BF16200000000000017B5
+t1367077218
+s6069
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/ja.lproj/HockeySDK.strings
+c00000000517BF162000000000000192F
+t1367077218
+s6447
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/pt-PT.lproj/HockeySDK.strings
+c00000000517BF16200000000000017BB
+t1367077218
+s6075
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/pt.lproj/HockeySDK.strings
+c00000000517BF16200000000000017A5
+t1367077218
+s6053
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/ro.lproj/HockeySDK.strings
+c00000000517BF1620000000000001754
+t1367077218
+s5972
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/ru.lproj/HockeySDK.strings
+c00000000517BF1620000000000001AE1
+t1367077218
+s6881
+
+N/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/zh-Hans.lproj/HockeySDK.strings
+c00000000517BF16200000000000016FC
+t1367077218
+s5884
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbed84fe3282cb741^6405abe3282cb741^---0#1#0#--18"Check dependencies36"F1981CEF-EAD7-44EC-A01F-3893E69B950A-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient.png ../Resources/IconGradient.png
+s388770019.697481
+e388770019.889352
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient.png
+x../Resources/IconGradient.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CopyPNGFile ../Resources/HockeySDKResources.bundle/IconGradient.png ../Resources/IconGradient.png48a7b2e3282cb741^1dace3e3282cb741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/IconGradient.png0000000000000000^731"CopyPNGFile ../Resources/HockeySDKResources.bundle/IconGradient.png ../Resources/IconGradient.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/IconGradient.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient.png36"E729608C-F4A5-4FA2-A743-2DFE1C48283C-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient@2x.png ../Resources/IconGradient@2x.png
+s388770019.887823
+e388770019.934842
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient@2x.png
+x../Resources/IconGradient@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"CopyPNGFile ../Resources/HockeySDKResources.bundle/IconGradient@2x.png ../Resources/IconGradient@2x.pngd064e3e3282cb741^7a70efe3282cb741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/IconGradient@2x.png0000000000000000^751"CopyPNGFile "../Resources/HockeySDKResources.bundle/IconGradient@2x.png" "../Resources/IconGradient@2x.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/IconGradient@2x.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/IconGradient@2x.png"36"F8979BBD-8705-4252-9DB3-BC2D8D0187EA-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied.png ../Resources/authorize_denied.png
+s388770019.697156
+e388770019.896630
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied.png
+x../Resources/authorize_denied.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"CopyPNGFile ../Resources/HockeySDKResources.bundle/authorize_denied.png ../Resources/authorize_denied.png66a0b2e3282cb741^1c97e5e3282cb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_denied.png0000000000000000^747"CopyPNGFile ../Resources/HockeySDKResources.bundle/authorize_denied.png ../Resources/authorize_denied.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_denied.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied.png36"27759E17-4C3C-481F-B17F-BFC36FB5FF14-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied@2x.png ../Resources/authorize_denied@2x.png
+s388770019.697165
+e388770019.910871
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied@2x.png
+x../Resources/authorize_denied@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile ../Resources/HockeySDKResources.bundle/authorize_denied@2x.png ../Resources/authorize_denied@2x.png889cb2e3282cb741^f642e9e3282cb741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_denied@2x.png0000000000000000^767"CopyPNGFile "../Resources/HockeySDKResources.bundle/authorize_denied@2x.png" "../Resources/authorize_denied@2x.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_denied@2x.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_denied@2x.png"36"6898B414-8D06-4072-B843-AD870C505F68-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request.png ../Resources/authorize_request.png
+s388770019.697061
+e388770019.899776
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request.png
+x../Resources/authorize_request.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"CopyPNGFile ../Resources/HockeySDKResources.bundle/authorize_request.png ../Resources/authorize_request.png2498b2e3282cb741^8657e6e3282cb741^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_request.png0000000000000000^751"CopyPNGFile ../Resources/HockeySDKResources.bundle/authorize_request.png ../Resources/authorize_request.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_request.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request.png36"DC08BC1A-C4FD-46EB-8983-2CC077712282-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request@2x.png ../Resources/authorize_request@2x.png
+s388770019.697174
+e388770019.916877
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request@2x.png
+x../Resources/authorize_request@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"CopyPNGFile ../Resources/HockeySDKResources.bundle/authorize_request@2x.png ../Resources/authorize_request@2x.png02a0b2e3282cb741^e8c0eae3282cb741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_request@2x.png0000000000000000^771"CopyPNGFile "../Resources/HockeySDKResources.bundle/authorize_request@2x.png" "../Resources/authorize_request@2x.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/authorize_request@2x.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/authorize_request@2x.png"36"F6050401-8979-42A3-9157-3D5B61AD8269-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/bg.png ../Resources/bg.png
+s388770019.697183
+e388770019.888854
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/bg.png
+x../Resources/bg.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"CopyPNGFile ../Resources/HockeySDKResources.bundle/bg.png ../Resources/bg.png5299b2e3282cb741^ac8be3e3282cb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/bg.png0000000000000000^691"CopyPNGFile ../Resources/HockeySDKResources.bundle/bg.png ../Resources/bg.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/bg.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/bg.png36"F4E37492-83BF-4A6E-8044-74BD2BFEB1F4-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight.png ../Resources/buttonHighlight.png
+s388770019.697306
+e388770019.886513
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight.png
+x../Resources/buttonHighlight.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonHighlight.png ../Resources/buttonHighlight.pnge8a5b2e3282cb741^ef00e3e3282cb741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonHighlight.png0000000000000000^743"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonHighlight.png ../Resources/buttonHighlight.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonHighlight.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight.png36"78101223-2331-4FC7-9121-5E84687FC46D-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight@2x.png ../Resources/buttonHighlight@2x.png
+s388770019.697474
+e388770019.886939
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight@2x.png
+x../Resources/buttonHighlight@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonHighlight@2x.png ../Resources/buttonHighlight@2x.png42b0b2e3282cb741^1e15e3e3282cb741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonHighlight@2x.png0000000000000000^763"CopyPNGFile "../Resources/HockeySDKResources.bundle/buttonHighlight@2x.png" "../Resources/buttonHighlight@2x.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonHighlight@2x.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonHighlight@2x.png"36"46BB4EF9-DE18-4E78-AD9E-31FEA8BFD641-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete.png ../Resources/buttonRoundedDelete.png
+s388770019.901043
+e388770019.942324
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete.png
+x../Resources/buttonRoundedDelete.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedDelete.png ../Resources/buttonRoundedDelete.png65c3e6e3282cb741^fe63f1e3282cb741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDelete.png0000000000000000^759"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedDelete.png ../Resources/buttonRoundedDelete.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDelete.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete.png36"75CEFA5E-3174-47CF-AA5F-0DE2E17F7A64-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png ../Resources/buttonRoundedDelete@2x.png
+s388770019.912463
+e388770019.975703
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png
+x../Resources/buttonRoundedDelete@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png ../Resources/buttonRoundedDelete@2x.pnge1b3e9e3282cb741^b3d1f9e3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDelete@2x.png0000000000000000^779"CopyPNGFile "../Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png" "../Resources/buttonRoundedDelete@2x.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDelete@2x.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDelete@2x.png"36"9AE0F92D-68CD-4B22-94B1-8A6CF9ABE3EF-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png ../Resources/buttonRoundedDeleteHighlighted.png
+s388770019.920135
+e388770019.961475
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png
+x../Resources/buttonRoundedDeleteHighlighted.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png ../Resources/buttonRoundedDeleteHighlighted.png7cb9ebe3282cb741^2428f6e3282cb741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDeleteHighlighted.png0000000000000000^803"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png ../Resources/buttonRoundedDeleteHighlighted.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDeleteHighlighted.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted.png36"F7AAD188-2D72-4879-BA6F-9CF5C13AC7E0-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png ../Resources/buttonRoundedDeleteHighlighted@2x.png
+s388770019.938620
+e388770019.988054
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png
+x../Resources/buttonRoundedDeleteHighlighted@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png ../Resources/buttonRoundedDeleteHighlighted@2x.png7bf6f0e3282cb741^aaeffce3282cb741^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDeleteHighlighted@2x.png0000000000000000^823"CopyPNGFile "../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png" "../Resources/buttonRoundedDeleteHighlighted@2x.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedDeleteHighlighted@2x.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedDeleteHighlighted@2x.png"36"CAA2841D-9570-46EF-893A-0D43A915AF4C-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular.png ../Resources/buttonRoundedRegular.png
+s388770019.939329
+e388770019.979411
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular.png
+x../Resources/buttonRoundedRegular.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedRegular.png ../Resources/buttonRoundedRegular.pnge3c7f0e3282cb741^30bcfae3282cb741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegular.png0000000000000000^763"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedRegular.png ../Resources/buttonRoundedRegular.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegular.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular.png36"20305438-0C41-4F52-92A5-A76063FE237A-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png ../Resources/buttonRoundedRegular@2x.png
+s388770019.944732
+e388770019.984429
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png
+x../Resources/buttonRoundedRegular@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png ../Resources/buttonRoundedRegular@2x.png6c08f2e3282cb741^910dfce3282cb741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegular@2x.png0000000000000000^783"CopyPNGFile "../Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png" "../Resources/buttonRoundedRegular@2x.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegular@2x.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegular@2x.png"36"5CFFE753-FD64-46A4-A11E-7418063C874B-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png ../Resources/buttonRoundedRegularHighlighted.png
+s388770019.945431
+e388770019.988454
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png
+x../Resources/buttonRoundedRegularHighlighted.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png ../Resources/buttonRoundedRegularHighlighted.png143ff2e3282cb741^bb0afde3282cb741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegularHighlighted.png0000000000000000^807"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png ../Resources/buttonRoundedRegularHighlighted.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegularHighlighted.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted.png36"7B0E8B19-6483-4430-BFFA-A0CA8BA106A5-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png ../Resources/buttonRoundedRegularHighlighted@2x.png
+s388770019.951234
+e388770019.990184
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png
+x../Resources/buttonRoundedRegularHighlighted@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"CopyPNGFile ../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png ../Resources/buttonRoundedRegularHighlighted@2x.png779ff3e3282cb741^0b7cfde3282cb741^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegularHighlighted@2x.png0000000000000000^827"CopyPNGFile "../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png" "../Resources/buttonRoundedRegularHighlighted@2x.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/buttonRoundedRegularHighlighted@2x.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/buttonRoundedRegularHighlighted@2x.png"36"F0C79C30-307E-4D4B-A259-B76DE19447F9-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png ../Resources/feedbackActivity@2x~ipad.png
+s388770019.888090
+e388770019.945684
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png
+x../Resources/feedbackActivity@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"CopyPNGFile ../Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png ../Resources/feedbackActivity@2x~ipad.png7671e3e3282cb741^7231f2e3282cb741^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActivity@2x~ipad.png0000000000000000^787"CopyPNGFile "../Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png" "../Resources/feedbackActivity@2x~ipad.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActivity@2x~ipad.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity@2x~ipad.png"36"9097C70E-5619-4017-AD6A-A0A7CE3B031C-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png ../Resources/feedbackActivity~ipad.png
+s388770019.890080
+e388770019.938128
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png
+x../Resources/feedbackActivity~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"CopyPNGFile ../Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png ../Resources/feedbackActivity~ipad.pngcff3e3e3282cb741^6570f0e3282cb741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActivity~ipad.png0000000000000000^775"CopyPNGFile "../Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png" "../Resources/feedbackActivity~ipad.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActivity~ipad.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActivity~ipad.png"36"D1494E74-5708-4EC3-B3D3-C9547BEDA2B5-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy.png ../Resources/feedbackActiviy.png
+s388770019.890057
+e388770019.933854
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy.png
+x../Resources/feedbackActiviy.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"CopyPNGFile ../Resources/HockeySDKResources.bundle/feedbackActiviy.png ../Resources/feedbackActiviy.png99f0e3e3282cb741^8466efe3282cb741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActiviy.png0000000000000000^743"CopyPNGFile ../Resources/HockeySDKResources.bundle/feedbackActiviy.png ../Resources/feedbackActiviy.png    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActiviy.png /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy.png36"871DD6D9-0A9E-4F96-87DB-6DE43DC4E07F-
+
+CCopyPNGFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png ../Resources/feedbackActiviy@2x.png
+s388770019.898246
+e388770019.951442
+r1
+xCopyPNGFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png
+x../Resources/feedbackActiviy@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"CopyPNGFile ../Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png ../Resources/feedbackActiviy@2x.pngec15e6e3282cb741^569bf3e3282cb741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActiviy@2x.png0000000000000000^763"CopyPNGFile "../Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png" "../Resources/feedbackActiviy@2x.png"    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/feedbackActiviy@2x.png" "/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/feedbackActiviy@2x.png"36"67C866E3-82AC-42E4-A4F4-7A58E98DB3F8-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings ../Resources/de.lproj/HockeySDK.strings
+s388770019.952689
+e388770019.960578
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings
+x../Resources/de.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/de.lproj/HockeySDK.stringsff03f4e3282cb741^aef5f5e3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/de.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/de.lproj/HockeySDK.strings ../Resources/de.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/de.lproj -- ../Resources/de.lproj/HockeySDK.strings36"F9EFB88E-5BF3-4C27-B1C2-A54B576E08C1-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings ../Resources/en.lproj/HockeySDK.strings
+s388770019.983865
+e388770019.987770
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings
+x../Resources/en.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/en.lproj/HockeySDK.stringsc7f5fbe3282cb741^4cdefce3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/en.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/en.lproj/HockeySDK.strings ../Resources/en.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/en.lproj -- ../Resources/en.lproj/HockeySDK.strings36"70B5A066-2F58-45B2-A785-D0DBC27399B9-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings ../Resources/es.lproj/HockeySDK.strings
+s388770019.962289
+e388770019.976416
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings
+x../Resources/es.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/es.lproj/HockeySDK.stringse677f6e3282cb741^48fdf9e3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/es.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/es.lproj/HockeySDK.strings ../Resources/es.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/es.lproj -- ../Resources/es.lproj/HockeySDK.strings36"07E2FAEE-B2A0-4FC2-8FAC-EB6A3974EA2C-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings ../Resources/fr.lproj/HockeySDK.strings
+s388770019.962312
+e388770019.976254
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings
+x../Resources/fr.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/fr.lproj/HockeySDK.stringsab75f6e3282cb741^cceef9e3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/fr.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/fr.lproj/HockeySDK.strings ../Resources/fr.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/fr.lproj -- ../Resources/fr.lproj/HockeySDK.strings36"E8503325-EADC-4959-8F9F-60A1F1D469F3-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings ../Resources/hr.lproj/HockeySDK.strings
+s388770019.980651
+e388770019.985242
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings
+x../Resources/hr.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/hr.lproj/HockeySDK.stringsee23fbe3282cb741^d93efce3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/hr.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/hr.lproj/HockeySDK.strings ../Resources/hr.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hr.lproj -- ../Resources/hr.lproj/HockeySDK.strings36"32017A38-86DA-443E-9718-641A20F31DF1-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings ../Resources/hu.lproj/HockeySDK.strings
+s388770019.987548
+e388770019.990903
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings
+x../Resources/hu.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/hu.lproj/HockeySDK.strings9be7fce3282cb741^15acfde3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/hu.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/hu.lproj/HockeySDK.strings ../Resources/hu.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/hu.lproj -- ../Resources/hu.lproj/HockeySDK.strings36"59379567-5469-4820-810B-C2EFE88D7B6C-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings ../Resources/it.lproj/HockeySDK.strings
+s388770019.976908
+e388770019.980076
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings
+x../Resources/it.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/it.lproj/HockeySDK.stringsd332fae3282cb741^00e6fae3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/it.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/it.lproj/HockeySDK.strings ../Resources/it.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/it.lproj -- ../Resources/it.lproj/HockeySDK.strings36"9495B806-2E10-406C-A92B-472E1DBC3F45-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings ../Resources/ja.lproj/HockeySDK.strings
+s388770019.977017
+e388770019.981309
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings
+x../Resources/ja.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/ja.lproj/HockeySDK.strings2a36fae3282cb741^3337fbe3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/ja.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/ja.lproj/HockeySDK.strings ../Resources/ja.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ja.lproj -- ../Resources/ja.lproj/HockeySDK.strings36"925FBF15-86A2-4FFB-AFA9-11584AFC4AD7-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings ../Resources/pt-PT.lproj/HockeySDK.strings
+s388770019.982493
+e388770019.986402
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings
+x../Resources/pt-PT.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy ../Resources/pt-PT.lproj/HockeySDK.stringsaa9bfbe3282cb741^5d89fce3282cb741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/pt-PT.lproj/HockeySDK.strings0000000000000000^680"CopyStringsFile ../Resources/HockeySDKResources.bundle/pt-PT.lproj/HockeySDK.strings ../Resources/pt-PT.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt-PT.lproj -- ../Resources/pt-PT.lproj/HockeySDK.strings36"0FB71046-5337-4E28-A491-7A31F1018C63-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings ../Resources/pt.lproj/HockeySDK.strings
+s388770019.977111
+e388770019.982602
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings
+x../Resources/pt.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/pt.lproj/HockeySDK.stringsb439fae3282cb741^b894fbe3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/pt.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/pt.lproj/HockeySDK.strings ../Resources/pt.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/pt.lproj -- ../Resources/pt.lproj/HockeySDK.strings36"E5FB360A-E1C3-4E4C-968D-B221652028C8-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings ../Resources/ro.lproj/HockeySDK.strings
+s388770019.985611
+e388770019.989649
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings
+x../Resources/ro.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/ro.lproj/HockeySDK.strings2e75fce3282cb741^e659fde3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/ro.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/ro.lproj/HockeySDK.strings ../Resources/ro.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ro.lproj -- ../Resources/ro.lproj/HockeySDK.strings36"06F2FFB4-7D36-4A6C-9982-578ADADDC6BF-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings ../Resources/ru.lproj/HockeySDK.strings
+s388770019.980639
+e388770019.986375
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings
+x../Resources/ru.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy ../Resources/ru.lproj/HockeySDK.stringsd924fbe3282cb741^2387fce3282cb741^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/ru.lproj/HockeySDK.strings0000000000000000^668"CopyStringsFile ../Resources/HockeySDKResources.bundle/ru.lproj/HockeySDK.strings ../Resources/ru.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/ru.lproj -- ../Resources/ru.lproj/HockeySDK.strings36"00EE37EE-BE61-48CF-9AFC-3C996810398D-
+
+CCopyStringsFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings ../Resources/zh-Hans.lproj/HockeySDK.strings
+s388770019.985576
+e388770019.988770
+r1
+xCopyStringsFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings
+x../Resources/zh-Hans.lproj/HockeySDK.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy ../Resources/zh-Hans.lproj/HockeySDK.strings9c6ffce3282cb741^b020fde3282cb741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/zh-Hans.lproj/HockeySDK.strings0000000000000000^688"CopyStringsFile ../Resources/HockeySDKResources.bundle/zh-Hans.lproj/HockeySDK.strings ../Resources/zh-Hans.lproj/HockeySDK.strings    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/zh-Hans.lproj -- ../Resources/zh-Hans.lproj/HockeySDK.strings36"FFFF8ABD-F484-49FD-9D6D-D44CBD7947F2-
+
+CProcessInfoPlistFile /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/Info.plist ../Resources/HockeySDK-Info.plist
+s388770019.685936
+e388770019.688999
+r1
+xProcessInfoPlistFile
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/Info.plist
+x../Resources/HockeySDK-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Process ../Resources/HockeySDK-Info.plist70b0afe3282cb741^2c62b0e3282cb741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDK-Info.plist0000000000000000^641"ProcessInfoPlistFile ../Resources/HockeySDKResources.bundle/Info.plist ../Resources/HockeySDK-Info.plist    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility ../Resources/HockeySDK-Info.plist -expandbuildsettings -format binary -platform iphoneos -o /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle/Info.plist36"0BD0E94E-9585-42A7-9F31-38E546B979A1-
+
+CTouch /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle
+s388770019.998806
+e388770020.003842
+r1
+xTouch
+x/Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Touch /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundled7bfffe3282cb741^0dfc00e4282cb741^---0#0#0#--471"Touch ../Resources/HockeySDKResources.bundle    cd /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/andy/Source/salesbook-mcube.salesBook/Pods/HockeySDK/Support/../Resources/HockeySDKResources.bundle36"999820D8-174C-4F6E-857F-D4CCFA54F060-
+

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+	<title>SalesBook</title>
+	<style>
+		body 
+        {
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 9pt;
+			padding: 0;
+            margin: 0;
+		}
+		
+        .documentHeader,
+        .pageHeader,
+        .article
+        {
+            clear:both;
+            padding:0;
+            margin:0;
+        }
+        
+		table 
+        {
+			border-spacing:0;
+			border-collapse:collapse;
+            border:0;
+            margin:0;
+            padding;0;
+            width: 100%;
+		}
+		
+		h1 
+        {
+			padding: 0;
+			margin: 0;
+			font-size:14pt;
+			line-height:14pt;
+			margin-bottom:5pt;
+		}
+		
+		h3 
+        {
+			padding: 0;
+			margin: 0;
+			font-size:9pt;
+			line-height:9pt;
+			margin-top:5pt;
+		}
+		
+		img 
+        {
+			width: 85px;
+			height: 85px;
+            margin-right: 5px;
+		}
+		
+		#facts {
+			font-weight:bold;
+		}
+				
+		#billing {
+			position: relative;
+            padding-bottom: 10px;
+		}
+		
+		#shopdata  {
+			width: 430px;
+		}
+		
+		#shopdata,
+		#clerkdata {
+			float: left;
+		}
+		
+		.catalog {
+			font-weight: bold;
+			line-height: 150%;
+			margin-bottom:5px;
+		}
+		
+		.nbr {
+			text-align: right;
+			width:30px;
+		}
+		
+		.uline {
+			border-bottom:solid black 1px;
+		}
+        
+        .pagina
+        {
+            text-align: right;
+        }
+
+	</style>
+</head>
+<body>
+{{#documentHeader}}
+<div id="kopf" class="documentHeader">
+
+	<div id="shopdata">
+		<div id="billing">
+			<h1>{{documentname}}</h1>
+			<span>{{invoicename}}<br>
+			{{invoicestreet}}<br>
+			{{invoicezip}} {{invoiceort}}<br>
+			{{invoicecountry}}</span>
+		</div>
+
+		<div id="shipping">
+			<h3>Lieferadresse</h3>
+			<span>{{deliveryname}}<br>
+			{{deliverystreet}}<br>
+			{{deliveryzip}} {{deliveryort}}<br>
+			{{deliverycountry}}</span>
+		</div>
+	</div>
+
+	<div id="clerkdata">
+		<span class="catalog">Frühjahr / Sommer 2012</span>
+		<div id="salesagent">
+			<span>{{clerkname}}<br>
+			{{clerkstreet}}<br>
+			{{clerkzip}} {{clerkort}}<br>
+			{{clerkphone}}<br>
+			{{clerkfax}}<br>
+			{{clerkmobile}}<br>
+			{{clerkemail}}</span>
+		</div>
+	</div>
+    
+</div>
+{{/documentHeader}}
+
+
+{{#pageHeader}}
+<div class='pageHeader'>
+    <p><br><br></p>
+    <table id="facts">
+        <tr>
+            <td>Kunden-Nr.</td>
+            <td>vorl.Auftrags-Nr.</td>
+            <td>Auftrags-Nr.</td>
+            <td>Kd.-Auftrags-Nr.</td>
+            <td>Datum</td>
+            <td class="pagina">Seite</td>
+        </tr>
+        <tr>
+            <td>{{customernumber}}</td>
+            <td>{{documentnumber}}</td>
+            <td>{{referencenumber}}</td>
+            <td>{{externalnumber}}</td>
+            <td>{{creationdate}}</td>
+            <td class="pagina">{{pageNumber}}</td>
+        </tr>
+    </table>
+    <hr></hr>
+</div>
+{{/pageHeader}}
+
+{{#pageContent}}
+<div class='articles'>
+    {{#articles}}
+    <table class="article">
+        <tr>
+            <td rowspan="4"><img src="{{imagepath}}" /></td>
+            <td>POS: {{pos}}</td>
+            <td>Artikel {{number}}</td>
+            <td>Farbe: {{Farbe}}</td>
+            <td style="text-align:right">Preis: {{preis1}}</td>
+            <td class="nbr">2%</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Material: {{Obermaterial}}</td>
+            <td style="text-align:right">Status: Delivered</td>
+            <td class="nbr">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Lieferzeit</td>
+            <td>{{Artikeltext2}}</td>
+            <td>{{Markenbezeichnung}}: {{Projektname}}</td>
+            <td style="text-align:right">Empf.VK-Preis: {{preis2}}</td>
+            <td class="nbr">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <table class="subtable">
+                    <tr>
+                        <td>Sortiment</td>
+                        <td>{{sortiment}}</td>
+                        <td>&nbsp;</td>
+                        {{#sizes}}
+                        <td class="nbr uline">{{size}}</td>
+                        {{/sizes}}
+                        <td class="nbr uline">Total</td>
+                    </tr>	
+                    <tr>
+                        <td>{{ME}}</td>
+                        <td>{{totalpairs}}</td>
+                        <td>NO</td>
+                        {{#quantites}}
+                        <td class="nbr">{{quantity}}</td>
+                        {{/quantites}}
+                        <td class="nbr">{{totalpairs}}</td>
+                    </tr>	
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr></hr>
+    {{/articles}}
+</div>
+{{/pageContent}}
+
+{{#pageFooter}}
+{{/pageFooter}}
+
+</body>
+</html>
